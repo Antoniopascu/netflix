@@ -13,14 +13,6 @@ def grafico_contenido_por_tipo(df):
     plt.ylabel = ('Número de titulos')
     plt.show
 
-    # """
-    # TODO:
-    # - Generar un grafico de barras usando seaborn
-    # - Comparar el numero de titulos por tipo de contenido
-    # - Utilizar la columna type del dataset
-    # - Anadir titulo y etiquetas a los ejes
-    # - Mostrar el grafico por pantalla
-    # """
     pass
 
 
@@ -34,14 +26,7 @@ def grafico_contenido_por_anio(df):
     plt.ylabel = ('Número de titulos')
     plt.show()
 
-    # """
-    # TODO:
-    # - Generar un grafico de lineas usando seaborn
-    # - Representar la evolucion del numero de titulos por anio de lanzamiento
-    # - Asegurarse de que los datos estan ordenados cronologicamente
-    # - Anadir titulo y etiquetas a los ejes
-    # - Mostrar el grafico por pantalla
-    # """
+
     pass
 
 
@@ -55,14 +40,6 @@ def grafico_top_paises(df, n=5):
     plt.ylabel = ('País')
     plt.show()
 
-    # """
-    # TODO:
-    # - Generar un grafico de barras usando seaborn
-    # - Mostrar los n paises con mayor numero de titulos
-    # - Utilizar la columna country del dataset
-    # - Anadir titulo y etiquetas a los ejes
-    # - Mostrar el grafico por pantalla
-    # """
     pass
 
 
@@ -82,15 +59,6 @@ def grafico_distribucion_duracion(df):
     plt.ylabel = ('Número de titulos')
     plt.show()
 
-    # """
-    # TODO:
-    # - Analizar la columna duration_num
-    # - Eliminar valores nulos antes de generar el grafico
-    # - Crear un histograma de la distribucion de duracion
-    # - Diferenciar el tipo de contenido usando colores
-    # - Anadir titulo y etiquetas a los ejes
-    # - Mostrar el grafico por pantalla
-    # """
     pass
 
 
@@ -105,15 +73,7 @@ def grafico_contenido_por_rating(df):
     plt.xticks (rotation=45)
     plt.show()
     
-    # """
-    # TODO:
-    # - Analizar la columna rating
-    # - Calcular el numero de titulos por tipo de rating
-    # - Generar un grafico de barras usando seaborn
-    # - Rotar las etiquetas si es necesario para mejorar la lectura
-    # - Anadir titulo y etiquetas a los ejes
-    # - Mostrar el grafico por pantalla
-    # """
+
     pass
 
 
@@ -127,12 +87,5 @@ def grafico_top_generos(df, n=5):
     plt.ylabel= ("Genero")
     plt.show()
 
-    # """
-    # TODO:
-    # - Analizar la columna listed_in para obtener los generos
-    # - Calcular los n generos mas frecuentes
-    # - Generar un grafico de barras usando seaborn
-    # - Anadir titulo y etiquetas a los ejes
-    # - Mostrar el grafico por pantalla
-    # """
     pass
+
