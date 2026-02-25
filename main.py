@@ -3,9 +3,6 @@ from data_cleaning import preparar_dataset
 from analysis import (contenido_por_tipo, contenido_por_rating, contenido_por_anio, top_generos, top_paises)
 from visualization import (grafico_contenido_por_anio, grafico_contenido_por_rating, grafico_contenido_por_tipo, grafico_distribucion_duracion, grafico_top_generos, grafico_top_paises)
 
-# BONUS
-# from netflix_analyzer import NetflixAnalyzer
-
 
 def main():
 
@@ -42,26 +39,8 @@ def main():
     grafico_contenido_por_rating(df_clean)
     grafico_top_generos(df_clean)
 
-    # """
-    # TODO:
-    # - Definir la ruta al archivo netflix_titles.csv
-    # - Cargar el dataset usando la funcion de carga
-    # - Realizar una exploracion inicial del dataset para detectar posibles problemas
-    # - Limpiar y preparar los datos antes del analisis
-    # - Ejecutar las funciones de analisis definidas en el proyecto
-    # - Mostrar por pantalla los resultados principales del analisis
-    # - Generar y mostrar las visualizaciones correspondientes
-    # - Asegurarse de que el flujo de ejecucion sigue un orden logico
-    # """
-    # pass
-
 
 if __name__ == "__main__":
 
     main()
-    # """
-    # TODO:
-    # - Ejecutar la funcion main
-    # - Verificar que todo el flujo del programa se ejecuta correctamente
-    # """
-    # pass
+
