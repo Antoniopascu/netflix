@@ -11,15 +11,6 @@ def limpiar_columna_country(df):
     df_clean['country'] = df_clean['country'].str.split(',').str[0]
 
     return df_clean
-    # """
-    # TODO:
-    # - Analizar la columna country
-    # - Rellenar los valores nulos con el valor knowing 'Unknown'
-    # - En los casos donde haya varios paises separados por coma, quedarse solo con el primero
-    # - No modificar el DataFrame original
-    # - Devolver un nuevo DataFrame con la columna country limpia
-    # """
-    # pass
 
 
 def extraer_duracion_numerica(row):
@@ -41,15 +32,6 @@ def extraer_duracion_numerica(row):
         return np.nan
         
 
-    # """
-    # TODO:
-    # - Recibir una fila del DataFrame
-    # - Analizar la columna duration
-    # - Extraer el valor numerico de la duracion
-    # - Para peliculas, interpretar el valor como minutos
-    # - Para series, interpretar el valor como numero de temporadas
-    # - Devolver un entero o NaN si no es posible obtener el valor
-    # """
 pass
 
 
@@ -61,13 +43,6 @@ def limpiar_duracion(df):
 
     return df_clean
 
-    # """
-    # TODO:
-    # - Crear una nueva columna llamada duration_num
-    # - Usar una funcion que procese fila a fila la columna duration
-    # - No modificar el DataFrame original
-    # - Devolver un nuevo DataFrame con la duracion numerica
-    # """
     pass
 
 
@@ -79,11 +54,4 @@ def preparar_dataset(df):
     df_clean = limpiar_duracion(df_clean)
 
     return df_clean
-
-    # """
-    # TODO:
-    # - Aplicar todas las funciones de limpieza necesarias sobre el dataset
-    # - Garantizar que el DataFrame resultante es una copia del original
-    # - Devolver el DataFrame final preparado para el analisis
-    # """
-    # pass
+    
