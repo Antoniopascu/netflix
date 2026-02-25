@@ -12,13 +12,6 @@ def cargar_dataset(ruta_csv):
     except Exception as e:
         print('\n Hay un error al cargar el archivo: ', e)
         return None
-    
-    # """
-    # TODO:
-    # - Cargar el archivo CSV indicado por la ruta recibida como parametro
-    # - Comprobar que el archivo se ha cargado correctamente
-    # - Devolver el DataFrame resultante
-    # """
 
 
 def exploracion_inicial(df):
@@ -34,13 +27,4 @@ def exploracion_inicial(df):
     print("\n--- NÚMERO DE VALORES NULOS POR COLUMNA ---")
     print(df.isnull().sum())
 
-
-    # """
-    # TODO:
-    # - Mostrar las primeras filas del dataset para entender su estructura
-    # - Mostrar el numero de filas y columnas
-    # - Mostrar los tipos de datos de cada columna
-    # - Mostrar el numero de valores nulos por columna
-    # - Usar esta informacion para detectar posibles problemas de calidad de datos
-    # """
 
