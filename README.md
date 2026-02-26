@@ -1,2 +1,2 @@
 # netflix
-Proyecto de datos de netflix
+Proyecto de análisis de datos de Netflix aleatorios
